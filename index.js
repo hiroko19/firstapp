@@ -1,6 +1,6 @@
 const express = require("express"); 
 const app = express();  
-const app = require('/app');
+// const app = require('/app');
 
 //クライアントから送信されたデータを解析し、req.bodyオブジェクトとしてアクセスできるようにする
 app.use(express.urlencoded({ extended: true}));
